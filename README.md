@@ -21,7 +21,6 @@ _I'd love for you to make the most of this project - it's all about learning, he
 ### Setting up the Backend
 
 1. **Fork and Clone the Repository**
-
    ```bash
    git clone https://github.com/{your-username}/wanderlust.git
    ```
@@ -102,13 +101,11 @@ _I'd love for you to make the most of this project - it's all about learning, he
    ```bash
    npm run dev
    ```
+```bash
+MONGODB_URI="mongodb://127.0.0.1/wanderlust"
+CORS_ORIGIN="http://localhost:5173"
 
-## 🌟 Ready to Contribute?
+#MONGODB_URI="mongodb://mongo/wanderlust" //database container name, like my mongo container name is mongo
+#CORS_ORIGIN="http://ec2-ip-address:5173"  // add here public ip address, and add frontend port
+```
 
-Kindly go through [CONTRIBUTING.md](https://github.com/krishnaacharyaa/wanderlust/blob/main/.github/CONTRIBUTING.md) to understand everything from setup to contributing guidelines.
-
-## 💖 Show Your Support
-
-If you find this project interesting and inspiring, please consider showing your support by starring it on GitHub! Your star goes a long way in helping me reach more developers and encourages me to keep enhancing the project.
-
-🚀 Feel free to get in touch with me for any further queries or support, happy to help :)
